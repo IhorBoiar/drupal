@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function vlada_preprocess_node__teaser(&$variables) {
+  $node = $variables['elements']['#node'];
+  $variables['node_type'] = $node->type->entity->label();
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function vlada_preprocess_node__blog__teaser(&$variables) {
+  $node = $variables['elements']['#node'];
+  $variables['node_type'] = $node->type->entity->label();
+}
+

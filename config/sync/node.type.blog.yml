@@ -1,0 +1,18 @@
+uuid: 942430c0-a30d-49bf-907e-9d2f0edc83ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Blog
+type: blog
+description: 'One record of one blogger'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

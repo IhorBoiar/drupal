@@ -1,0 +1,40 @@
+uuid: 3ef55ddd-0abd-4839-878e-65f86043aa32
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dossier.body
+    - field.field.node.dossier.field_image
+    - field.field.node.dossier.field_subtitle
+    - field.field.node.dossier.field_tags
+    - node.type.dossier
+  module:
+    - image
+    - user
+id: node.dossier.teaser
+targetEntityType: node
+bundle: dossier
+mode: teaser
+content:
+  field_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_subtitle:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_tags: true
+  links: true

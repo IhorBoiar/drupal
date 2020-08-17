@@ -1,0 +1,25 @@
+uuid: 79e91b36-2bca-4395-abce-4928c75ac1f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.redaction
+  module:
+    - system
+  theme:
+    - vlada
+id: redaction
+theme: vlada
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:redaction'
+settings:
+  id: 'system_menu_block:redaction'
+  label: Redaction
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

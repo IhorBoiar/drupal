@@ -1,0 +1,22 @@
+uuid: a7d4ecf5-9ebc-4bd6-b8a4-90cb1cfcc5da
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vlada
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: vlada_help
+theme: vlada
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

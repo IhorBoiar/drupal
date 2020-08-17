@@ -1,0 +1,23 @@
+uuid: 0e01fe86-7445-412f-bfd7-c808a2823f78
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.investigation
+  module:
+    - text
+id: node.investigation.body
+field_name: body
+entity_type: node
+bundle: investigation
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

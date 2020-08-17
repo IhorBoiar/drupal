@@ -1,0 +1,40 @@
+uuid: b4a20108-f262-4474-959a-41a51c548ea2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.investigation.body
+    - field.field.node.investigation.field_image
+    - field.field.node.investigation.field_subtitle
+    - field.field.node.investigation.field_tags
+    - node.type.investigation
+  module:
+    - image
+    - user
+id: node.investigation.teaser
+targetEntityType: node
+bundle: investigation
+mode: teaser
+content:
+  field_image:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_subtitle:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_tags: true
+  links: true

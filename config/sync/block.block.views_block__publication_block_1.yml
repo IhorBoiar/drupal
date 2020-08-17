@@ -1,0 +1,30 @@
+uuid: 1f0c50f9-7730-40c9-b7ff-98a4eeef7d78
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.publication
+  module:
+    - system
+    - views
+  theme:
+    - vlada
+id: views_block__publication_block_1
+theme: vlada
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:publication-block_1'
+settings:
+  id: 'views_block:publication-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,30 @@
+uuid: 6806ff2d-e660-4ccb-9d1f-4d32accd26aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.investigation
+  module:
+    - system
+    - views
+  theme:
+    - vlada
+id: views_block__investigation_block_1
+theme: vlada
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:investigation-block_1'
+settings:
+  id: 'views_block:investigation-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

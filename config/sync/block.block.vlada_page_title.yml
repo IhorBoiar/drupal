@@ -1,0 +1,20 @@
+uuid: 2059a890-6bb1-4dd5-9f27-03708911fd49
+langcode: en
+status: true
+dependencies:
+  theme:
+    - vlada
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: vlada_page_title
+theme: vlada
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

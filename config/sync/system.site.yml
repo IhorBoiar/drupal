@@ -1,0 +1,14 @@
+uuid: d1acd6cd-f86c-4bc3-8057-0a989393f4a6
+name: 4vlada
+mail: 4vlada@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

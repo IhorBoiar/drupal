@@ -1,0 +1,7 @@
+vlada_calculator.calculator:
+  path: '/calculator'
+  defaults:
+    _form: '\Drupal\vlada_calculator\Form\VladaCalculatorForm'
+    _title: 'Calculator'
+  requirements:
+    _permission: 'access content'

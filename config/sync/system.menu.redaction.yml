@@ -1,0 +1,8 @@
+uuid: edc2dbf2-23f6-4725-9f39-6d9349144640
+langcode: en
+status: true
+dependencies: {  }
+id: redaction
+label: Redaction
+description: ''
+locked: false

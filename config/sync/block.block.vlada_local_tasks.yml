@@ -1,0 +1,22 @@
+uuid: 8a206f88-fda7-4601-a279-4dd206682be4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - vlada
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: vlada_local_tasks
+theme: vlada
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

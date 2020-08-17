@@ -1,0 +1,189 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+.text-align-center {
+  background: #0f0f0f;
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  line-height: 20px;
+}
+
+.region-footer, .region-footer a{
+  color: white;
+  background-color: #0f0f0f!important;
+}
+
+.footer-menu {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding-bottom: 0!important;
+}
+
+.footer-text {
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-top: 40px;
+  height: 55px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+h3>a {
+  color: #030303!important;
+  font-family: 'Roboto Slab',serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+h4 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+}
+
+.category a {
+  display: inline-block;
+  padding: 0 10px;
+  border: 1px solid #dd1f26;
+  color: #dd1f26;
+  font-family: "Open Sans",sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.node {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.view-footer a {
+  display: inline-block;
+  width: 100%;
+  background-color: silver;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.nav > li > a:hover {
+  color: #970f00!important;
+}
+
+.container-node {
+  padding-left: 260px!important;
+  padding-right: 260px!important;
+}
+
+.container-node h1 {
+  color: #030303;
+  font-family: "Roboto Slab",serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.54px;
+}
+
+.views-row {
+  background: #e7e7e7;
+}
+
+.navbar-header {
+  background: #000;
+  margin: 0 auto;
+  width: -webkit-fill-available;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo img {
+  margin-top: -12px;
+}
+
+.menu--main a{
+  color: #000!important;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1;
+  padding: 25px 15px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+/*.menu--main ul {*/
+/*float: left;*/
+/*margin: 0;*/
+/*}*/
+
+body {
+  margin-top: 0;
+}
+
+.menu.menu--account.nav.navbar-nav.navbar-right {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.menu.menu--account.nav.navbar-nav.navbar-right a {
+  color: #eff6fc;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0f0f0f!important;
+  border-color: #0f0f0f!important;
+}
+
+.input-group .form-control {
+  float: right!important;
+  width: 50%!important;
+  height: 34px;
+}
+
+.field--name-field-tags .field--item a {
+  display: block;
+  padding: 0 10px;
+  border: 2px solid #fff;
+  color: #424242;
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+

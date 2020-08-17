@@ -1,0 +1,25 @@
+uuid: d33239f9-ab03-4e57-b555-76b87dd7fd87
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.headings
+  module:
+    - system
+  theme:
+    - vlada
+id: headings
+theme: vlada
+region: footer
+weight: -8
+provider: null
+plugin: 'system_menu_block:headings'
+settings:
+  id: 'system_menu_block:headings'
+  label: Headings
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 44d203f8-cf4b-4d46-a9b1-1a4aaa3f2990
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:60171dab-08f5-457f-bbfd-97882ea35784'
+  module:
+    - block_content
+  theme:
+    - vlada
+id: footerinfo
+theme: vlada
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:60171dab-08f5-457f-bbfd-97882ea35784'
+settings:
+  id: 'block_content:60171dab-08f5-457f-bbfd-97882ea35784'
+  label: 'Footer info'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
