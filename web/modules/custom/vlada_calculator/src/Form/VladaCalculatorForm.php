@@ -91,10 +91,9 @@ class VladaCalculatorForm extends FormBase {
       $form_state->setErrorByName('second', $this->t('The second value should be numeric.'));
     }
 
-    if($action = 'division' ) {
-      if($form_state->getValue('second') == 0) {
-        $form_state->setErrorByName('division', $this->t('The second value will can not 0.'));
-      }
+    $action = $form_state->getValue('action');
+    if ($action === 'division' && $form_state->getValue('second') == 0) {
+      $form_state->setErrorByName('division', $this->t('The second value can not be 0 if action is division.'));
     }
   }
 
